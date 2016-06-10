@@ -1,0 +1,8 @@
+<div>
+  <button ng-click="login()" ng-hide="user">Login with Google</button>
+  <div ng-show="user">
+    Welcome {{user.google.displayName}}
+    <a ng-href='#/threads'>Go to Threads</a>
+    <button ng-click="logout()">Logout</button>
+  </div>
+</div>
